@@ -56,3 +56,9 @@ Test your links and embedded content to ensure they work as expected.
 **Submission Guidelines:**
 
 This assignment is intended for practice purposes only, and there is no requirement for submission. The goal is to reinforce your understanding of HTML elements, particularly tables, lists, and forms, with an emphasis on enhanced validation techniques.
+
+# Intro to CSS Assignment
+
+For this assignment, you are required to clone the cards from the link provided above as closely as possible. Pay attention to the details and aim for a high level of similarity. Please name the main file as "index" and identify the links as "card1", "card2", and "card3" there should be one card in one card.html file and it should be in the center of the page.
+
+https://dribbble.com/shots/15573169-Signup-and-onboarding
