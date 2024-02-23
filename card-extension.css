@@ -1,0 +1,68 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+ }
+ .card-container{
+  margin:4%  auto;
+  background-color: white;
+  border: 1px solid #8080801c;
+  width: 40%;
+  border-radius: 14px;
+  padding: 6px 10px;
+  text-align: center;
+ }
+ .credit-card{
+   margin: auto;
+   width: 50px;
+ }
+ /* .text-desc{
+   font-weight: bold;
+ } */
+ .txt-bold{
+   font-weight: bold;
+ }
+ .input-container {
+   margin: 20px;
+   position: relative;
+}
+input {
+   padding: 8px;
+   padding-left: 35px; /* space for the icon */
+   width: 300px;
+   font-size: 16px;
+   border-color: rgb(103 58 183 / 76%);
+   border-radius: 6px;
+}
+.credit-card-icon {
+   position: absolute;
+   left: 10px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+.card-size{
+  width: 28px;
+}
+.credit-card-btn{
+   background-color: rgb(103 58 183 / 76%);
+   background-color: rgb(103 58 183 / 76%);
+   color: white;
+   padding: 12px;
+   border: none;
+   border-radius: 6px;
+   width: 300px;
+   margin: auto;
+}
+.icon-secure{
+   width: 14px;
+   height: 14px;
+   padding-top: 8px;
+}
+.secure-details{
+   padding: 10px;
+   margin-bottom: 10px;
+}
+.secure-txt{
+   font-size: 12px;
+   font-weight: 100;
+   margin-bottom: 10px;
+}
