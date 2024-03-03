@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    font-family: 'Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif';
+    background-color: black;
+    color: white;
+}
+/* background area 1st section */
+.netflix-clone-container{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+}
+.nf-bg-img-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.nf-bg-img{
+    
+   
+}
+.nf-bg-img img{
+    height: 100%;
+    width: 100%;
+    transform: scale(1.25) translateY(-10%);
+    object-fit: cover;
+}
+.nf-tint{
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+/* background area 1st section */
+/* content area 1st section */
+.nf-content-hero{
+    position: absolute;
+    width: 100%;   
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: calc(100% - 3rem);
+    flex-direction: column;
+    text-align: center; 
+}
+.nf-content{
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.nf-content-form{
+    position: relative;
+    top: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.nf-content-form h3{
+    color: white;
+}
+.heading-txt h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.nf-input-email{
+    display: flex;
+    gap: 2px;
+    position: absolute;
+    top: 70px;
+    height: 40px;
+}
+.nf-email{
+    border: 1px solid white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 4px;
+    padding: 6px;
+    width: 250px;
+
+}
+.nf-start{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border: 1px solid grey;
+    font-weight: 500;
+    padding: 4px;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+/* content area 1st section */
+/* menu area */
+.nf-menu{
+    top: 14px;
+    left: 186px;
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    width: 70%;
+}
+.nf-lang{
+    display: flex;
+    gap: 20px;
+}
+.nf-logo{
+    display: flex;
+    gap: 2px;
+    border: 1px solid #d5cfcf6e;
+    background-color: black;    
+    padding: 5px;
+}
+.nf-lang-logo{
+padding: 5px 5px;
+}
+.ng-arrow-icon{
+
+}
+.ng-lang-select{
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background-color: inherit;
+}
+.nf-btn{
+    border: none;
+    border-radius: 4px;
+    width: auto;
+    font-size: 0.875rem;
+    font-weight: 500;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+/* menu area */
+/* watch TV */
+.nf-watch-tv{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top: 4px solid #80808070;
+}
+.nf-watch-tv-video{
+    position: absolute;
+    top: 98px;
+    right: 88px;
+    width: 37%;
+    z-index: -1;
+}
+.nf-watch-tv-txt{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 136px;
+    position: relative;
+    top: 100px;
+}
+.nf-watch-tv-txt-head{
+
+}
+.nf-watch-tv-txt-desc{
+font-size: small;
+}
+/* watch TV */
